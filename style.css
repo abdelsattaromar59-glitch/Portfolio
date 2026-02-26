@@ -1,6 +1,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+
+.root{
+    --main-blue: #3a6cf4;
+    --main-purple: #601cfc;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -21,14 +27,14 @@ header{
 
 .logo{
     text-decoration: none;
-    color: #3a6cf4;
+    color: var(--main-blue);
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.8em;
 }
 
 .navigation a{
-    color: #3a6cf4;
+    color: var(--main-blue);
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 500;
@@ -36,7 +42,7 @@ header{
 }
 
 .navigation a:hover{
-    color: #601cfc;
+    color: var(--main-purple);
 }
 
 section{
@@ -79,7 +85,7 @@ section{
 
 .main-btn{
     color: #fff;
-    background-color: #3a6cf4;
+    background-color: var(--main-blue);
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 600;
@@ -92,7 +98,7 @@ section{
 }
 
 .main-btn:hover{
-    background-color: #0a49f6;
+    background-color: var(--main-purple);
     transform: scale(1.1);
 }
 
@@ -105,7 +111,7 @@ section{
 title{
     display: flex;
     justify-content: center;
-    color: #3a6cf4;
+    color: var(--main-blue);
     font-size: 2.2em;
     font-weight: 800;
     margin-bottom: 30px;
@@ -133,7 +139,7 @@ title{
 }
 
 .card .icon{
-    color: #3a6cf4;
+    color: var(--main-blue);
     font-size: 8em;
     text-align: center;
 }
@@ -143,7 +149,7 @@ title{
 }
 
 .info h3{
-    color: #3a6cf4;
+    color: var(--main-blue);
     font-size: 1.2em;
     font-weight: 700;
     margin: 10px;
@@ -199,11 +205,11 @@ title{
 
 .more-details {
     text-decoration: none;
-    color: #3a6cf4;
+    color: var(--main-blue);
 }
 
 .more-details:hover {
-    color: #601cfc;
+    color: var(--main-purple);
 }
 
 
@@ -234,7 +240,7 @@ title{
 }
 
 .footer-title span {
-    color: #3a6cf4;
+    color: var(--main-blue);
 }
 
 .footer .social-icons a {
